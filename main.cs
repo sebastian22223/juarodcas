@@ -3,9 +3,9 @@ using System;
 class Program {
   public static void Main (string[] args) {
 
-  numerosPrimos(1 , 100);
+  PrintPrimes(1 , 100);
 
-  static void numerosPrimos (int numInit,int numFinish){
+  static void PrintPrimes (int numInit,int numFinish){
     while (numInit <= numFinish){
        int contador = 1;
        int  numDivExactas = 0;
